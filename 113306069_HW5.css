@@ -1,0 +1,105 @@
+body{
+	background-color:lightblue;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin:0px;
+	min-height:100vh;
+}
+.main-container{
+	background-color:white;
+	display:flex;
+	max-width:900px;
+	max-height:950px;
+	box-shadow: 10px 10px 16px rgba(0,0,0,0.2);
+	margin:20px 0;
+}
+.left-panel{
+	width:330px;
+	background-color:gray;
+	color:white;
+	display:flex;
+	flex-direction:column;
+}
+.photo-panel{
+	background-image: url("profile.jpg");
+	background-size:cover;
+	background-position:center;
+	height: 400px;
+}
+.text-content{
+	padding:20px;
+	display:flex;
+	flex-direction:column;
+	justify-content: space-between;
+}
+.text-content p{
+	font-size:15px;
+}
+.text-content img{
+	margin-top:auto;
+	width:100%;
+	align-self:center;
+}
+.right-panel{
+	display:flex;
+	width:540px;
+	flex-direction:column;
+	height:100%;
+	padding:20px;
+	box-sizing:border-box;
+}
+.right-panel section{
+	justify-content: space-between;
+}
+.right-panel h2{
+	border-bottom:2px solid #ccc;
+	padding-bottom:5px;
+	margin-bottom:10px;
+}
+.education{
+	display:flex;
+	margin-bottom:50px;
+}
+.hw{
+	margin-bottom:50px;
+}
+.year{
+	fond-weight:bold;
+	width:20%;
+}
+.description{
+	width:75%;
+}
+a{
+	text-decoration:none;
+	color:gray;
+}
+a:hover {
+  color:lightblue;
+}
+.favorite-music{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	margin-bottom:20px;
+}
+.music-item{
+	display:flex;
+	flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    margin:10px;
+}
+.music-item img{
+	width:80px;
+	margin:5px;
+}
+.music-item p {
+    font-size:15px; 
+    margin:0; 
+}
+.note{
+	font-style:arial;
+	font-size:1em;
+}
